@@ -1,3 +1,11 @@
+Neo4j 2.3.3 test database
+=======================================
+
+This is a Neo4j 2.3.3 community edition graph database, and REST server configured
+to run on port 7373 and the https version on port 7272.
+
+This means that your test server can be kept running alongside an out-of-the-box neo4j dev server.
+
 Neo4j 2.3.3
 =======================================
 
@@ -30,8 +38,8 @@ look at the web interface ...
 
 1. Open a console and navigate to the install directory.
 2. Start the server:
-   * Windows, use: bin\Neo4j.bat
-   * Linux/Mac, use: ./bin/neo4j console
+   * Windows: use bin\Neo4j.bat
+   * Linux/Mac: use ./bin/neo4j console
 3. In a browser, open http://localhost:7474/
 4. From any REST client or browser, open http://localhost:7474/db/data
    in order to get a REST starting point, e.g.
